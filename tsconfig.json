@@ -1,0 +1,19 @@
+{
+  "extends": "./node_modules/@tybys/tsgo/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "sourceMap": false,
+    "types": [],
+    "lib": [
+      "DOM",
+      "ES5",
+      "ES2015",
+      "ES2020.BigInt"
+    ],
+    "importHelpers": false,
+    "noEmitHelpers": false
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
